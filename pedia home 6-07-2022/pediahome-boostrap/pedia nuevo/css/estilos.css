@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+     color: #000; 
+    text-decoration: none;
+      box-sizing: content-box;
+}
+
+header {
+    background-color:#73968f;
+   
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.logos1{
+    display: flex;
+
+}
+
+.lupa{
+    display: flex;
+    
+}
+
+
+nav ,.pestañas, ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    text-decoration: none;
+    
+    
+    
+}
+nav ,.pestañas, li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin: 20px 25px;
+    
+    
+    
+}
+nav .pestañas ,li ,a{
+    text-decoration-line: none;
+    font-family: 'Vesper Libre', serif;
+    font-size: 18px;
+    color: black;
+
+} 
+.paginaPrincip {
+    margin-left: 20px;
+    margin-right: 170px;
+}
+.contenedor {
+    width: 100%;
+    
+}
+.contenedor #video {
+    width: 350px;
+    height: 250px;
+    display:block;
+    margin: auto;    
+}
+.titu1 h2{
+    color:lightblue;
+    padding-left: 40%;
+    padding-top: 20px;
+}
+
+.contenedor-slider {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+
+}
+
+.slider-manual {
+  height: 300px;
+  margin: auto;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+.slider-manual img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 90%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.slider-manual input[type="radio"] {
+  display: none;
+}
+.slider-manual input[type="radio"]:checked ~ img {
+  opacity: 1;
+}
+.slider-manual input[type="radio"] + label {
+  position: relative;
+  z-index: 50;
+  margin: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.slider-manual input[type="radio"]:checked ~ label {
+  border: 1px solid #000;
+  background: rgb(82, 84, 211);
+}
+.mapa {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid #a4a4a4;
+  display: flex;
+}
+.mapa img {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+}
+.mapa-m {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.doctores img {
+    width: 240px;
+    padding-left: 20px;
+}
+.botones img {
+    width: 190px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 8px;
+    margin-bottom: 40px;
+
+}
+footer {
+    background: #73968f;
+
+    
+}
+.container-footer {
+    white: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 20px;
+    
+}
+
+.container-footer .princip img {
+    width: 80%;
+    padding-right: 20px;
+    
+}
+.logosfoot {
+    width: 30%;
+    display: flex;
+}
+.container-footer .verticalLine {
+    color: white;
+    border-left:solid;
+
+    
+}
+.pestafoot {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 60px;
+    margin-left: 200px;
+}
+.pestafoot li {
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin: 20px 25px;
+    
+}
+.pestafoot ,li ,a{
+    font-family: 'Vesper Libre', serif;
+    font-size: 16px;
+
+} 
+.barra-horiz {
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid linen;
+    padding: 50px;
+}
+.subtitulo {
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 500px;
+    color: white;
+}
+.pestaInfer {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 60px;
+    margin-left: 120px;
+}
+.pestaInfer li {
+    float: left;
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    
+}
+.pestaInfer ,li ,a{
+    text-decoration-line: none;
+    color:ghostwhite;
+    font-family: 'Vesper Libre', serif;
+    font-size: 16px;
+
+} 
+.formulario {
+    display: flex;
+    justify-content: center;
+    color:ghostwhite;
+    font-family: 'Vesper Libre', serif;
+    font-size: 10px;
+}
+.formulario .parrafo {
+    padding-left: 80px;
+    width: 300px;
+    height: 100px;
+}
+
+footer .foot {
+    width: 1200px;
+    height: 100px;
+}
+a {
+    color: #000; 
+    text-decoration: none;
+}
+
+
+/*formulario de contacto */
+#footer form input[type="text"], #footer form input[type="email"], #footer form input[type="password"], #footer form select, #footer form textarea {
+    background: #ccc;
+    box-shadow: none;
+}
+
+form input[type="text"], form input[type="email"] input[type="password"] {
+    line-height: 1em;
+}
