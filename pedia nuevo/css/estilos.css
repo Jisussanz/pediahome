@@ -78,3 +78,11 @@ iframe {
     width: 240px;
     padding-left: 20px;
 }
+.botones img {
+    width: 190px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 8px;
+    margin-bottom: 40px;
+
+}
