@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -59,7 +60,7 @@ nav .pestañas ,li ,a{
     
 }
 .container #video {
-    width: 350px;
+    width: 700px;
     height: 250px;
     display:block;
     padding-left: 30%;  
