@@ -34,7 +34,7 @@
             <ul>
                 <li><a class="text-dark text-decoration-none" href="index.html">Inicio</a></li>
                 <li><a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a></li>
-                <li><a class="text-dark text-decoration-none"href="equipo.html">Equipo Médico</a></li>
+                <li><a class="text-dark text-decoration-none"href="equipo.html">Nuestro Equipo</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Noticias</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Sistema</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Turno</a></li>
@@ -49,8 +49,8 @@
         src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3350.128694469739!2d-68.846585!3d-32.8947655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090fc3b03a2f%3A0x46060152c3008698!2sCj%C3%B3n.%20Lemos%20598%2C%20M5500HFA%20Mendoza!5e0!3m2!1ses-419!2sar!4v1653008892308!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </section>
-         <footer>
-         <div class="container-footer">
+    <footer>
+        <div class="container-footer">
             <div class="princip">
                 <img src="imagenes/logopediahome.png" alt="#">
             </div>
@@ -67,7 +67,7 @@
                 <ul>
                     <li><a class="text-white text-decoration-none" href="index.html">Inicio</a></li>
                     <li><a class="text-white text-decoration-none" href="nosotros.html">Nosotros</a></li>
-                    <li><a class="text-white text-decoration-none" href="equipo.html">Equipo Médico</a></li>
+                    <li><a class="text-white text-decoration-none" href="equipo.html">Nuestro Equipo</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Noticias</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Sistema</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Turno</a></li>
@@ -95,25 +95,34 @@
         </div>
         <div class="barra-horiz">
           </div>
-        <div class="formulario">
-            <form>formulario</form>
-            <div class="parrafo">
-                <p>Somos un grupo de profesionales de la salud que consideran
-                que el trabajo en equipo, el abordaje integral y
-                los aportes de cada disciplina posibilitan un
-                acompañamiento enriquecedor y efectivo centrado
-                en la persona. A través de cada especialidad ofrecemos
-                soluciones a cada niño, niña o adolescente que le permiten
-                tener una mejor calidad de vida individual e interpersonal.
-                Ofrecemos atención, asesoramiento especializado
-                y soporte a pacientes, familias, otros médicos o instituciones.
-                Tenemos una nueva mirada integral y compleja. </p>
+            <section>
+                <div class="container">
+                     <form class="row justify-content-md-center" method="post" action="enviar.php" method="post">
+                            <div class="col-10 w-50">
+                                    <input type="text" class="form-control m-3" id="form-input" placeholder="Nombre ">
+                                    <input type="text" class="form-control m-3" id="form-input" placeholder="Email">
+                                    <textarea name="mensaje" class="form-control m-3" id="form-input" rows="7" placeholder="Mensaje "></textarea>
+                                    
+                                        <button type="submit" class="btn btn-danger">Enviar</button> 
+								        <button type="reset" class="btn btn-light" value="Reset">Cancelar</button>
 
-            </div>
-
-
-
-        </div>
+                                </div>
+                            <div class="col-2 formulario mt-2 ">
+                                        <p>Somos un grupo de profesionales de la salud que consideran
+                                        que el trabajo en equipo, el abordaje integral y
+                                        los aportes de cada disciplina posibilitan un
+                                        acompañamiento enriquecedor y efectivo centrado
+                                        en la persona. A través de cada especialidad ofrecemos
+                                        soluciones a cada niño, niña o adolescente que le permiten
+                                        tener una mejor calidad de vida individual e interpersonal.
+                                        Ofrecemos atención, asesoramiento especializado
+                                        y soporte a pacientes, familias, otros médicos o instituciones.
+                                        Tenemos una nueva mirada integral y compleja. </p>
+                                </div>                               
+                    </form>
+                 </div>
+			</section>
+          
 
         </div>
     </footer>

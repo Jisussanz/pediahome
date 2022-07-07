@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/estilos.css">
        
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Equipo Médico</title>
+    <title>Nuestro Equipo</title>
 </head>
 <body>
     <header>
@@ -35,7 +35,7 @@
             <ul>
                 <li><a class="text-dark text-decoration-none" href="index.html">Inicio</a></li>
                 <li><a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a></li>
-                <li><a class="text-dark text-decoration-none"href="equipo.html">Equipo Médico</a></li>
+                <li><a class="text-dark text-decoration-none"href="equipo.html">Nuestro Equipo</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Noticias</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Sistema</a></li>
                 <li><a class="text-dark text-decoration-none"href="#">Turno</a></li>
@@ -77,7 +77,7 @@
             <img src="imagenes/yo.png" alt="">
         </div>
     </aside>
-         <footer>
+    <footer>
         <div class="container-footer">
             <div class="princip">
                 <img src="imagenes/logopediahome.png" alt="#">
@@ -95,7 +95,7 @@
                 <ul>
                     <li><a class="text-white text-decoration-none" href="index.html">Inicio</a></li>
                     <li><a class="text-white text-decoration-none" href="nosotros.html">Nosotros</a></li>
-                    <li><a class="text-white text-decoration-none" href="equipo.html">Equipo Médico</a></li>
+                    <li><a class="text-white text-decoration-none" href="equipo.html">Nuestro Equipo</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Noticias</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Sistema</a></li>
                     <li><a class="text-white text-decoration-none" href="#">Turno</a></li>
@@ -123,46 +123,34 @@
         </div>
         <div class="barra-horiz">
           </div>
-        <div class="formulario">
-            		<section>
-										<form method="post" action="enviar.php" method="post">
-											<div class="row ">
-												<div class="">
-													<input type="text" name="name" id="contact-name" placeholder="Nombre" required/>
-												</div>
-												<div class="">
-													<input type="email" name="email" id="contact-email" placeholder="Email" required/>
-												</div>
-												<div class="">
-													<textarea name="message" id="contact-message" placeholder="Mensaje" rows="4"></textarea>
-												</div>
-												<div class="">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-            <form>formulario</form>
-            <div class="parrafo">
-                <p>Somos un grupo de profesionales de la salud que consideran
-                que el trabajo en equipo, el abordaje integral y
-                los aportes de cada disciplina posibilitan un
-                acompañamiento enriquecedor y efectivo centrado
-                en la persona. A través de cada especialidad ofrecemos
-                soluciones a cada niño, niña o adolescente que le permiten
-                tener una mejor calidad de vida individual e interpersonal.
-                Ofrecemos atención, asesoramiento especializado
-                y soporte a pacientes, familias, otros médicos o instituciones.
-                Tenemos una nueva mirada integral y compleja. </p>
+            <section>
+                <div class="container">
+                     <form class="row justify-content-md-center" method="post" action="enviar.php" method="post">
+                            <div class="col-10 w-50">
+                                    <input type="text" class="form-control m-3" id="form-input" placeholder="Nombre ">
+                                    <input type="text" class="form-control m-3" id="form-input" placeholder="Email">
+                                    <textarea name="mensaje" class="form-control m-3" id="form-input" rows="7" placeholder="Mensaje "></textarea>
+                                    
+                                        <button type="submit" class="btn btn-danger">Enviar</button> 
+								        <button type="reset" class="btn btn-light" value="Reset">Cancelar</button>
 
-            </div>
-
-
-
-        </div>
+                                </div>
+                            <div class="col-2 formulario mt-2 ">
+                                        <p>Somos un grupo de profesionales de la salud que consideran
+                                        que el trabajo en equipo, el abordaje integral y
+                                        los aportes de cada disciplina posibilitan un
+                                        acompañamiento enriquecedor y efectivo centrado
+                                        en la persona. A través de cada especialidad ofrecemos
+                                        soluciones a cada niño, niña o adolescente que le permiten
+                                        tener una mejor calidad de vida individual e interpersonal.
+                                        Ofrecemos atención, asesoramiento especializado
+                                        y soporte a pacientes, familias, otros médicos o instituciones.
+                                        Tenemos una nueva mirada integral y compleja. </p>
+                                </div>                               
+                    </form>
+                 </div>
+			</section>
+          
 
         </div>
     </footer>
