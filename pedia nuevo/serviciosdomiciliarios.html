@@ -6,72 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/serviciosDomi.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>ServiciosDomiciliarios</title>
 </head>
 <body>
    
-    <div class="tituloServ"><h1>Servicios Domiciliarios</h1></div>
+  <header>
+    <div class="logos">
+        <div id="pedi"><img src="imagenes/logopediahome.png" alt="" width="100px" height="50px"></div>
+        <div class="logos1">
+            <div><img src="imagenes/logowhat.png" alt="" width="30px" height="30px"></div>
+            <div><img src="imagenes/logoinsta.png" alt="" width="30px" height="30px"></div>
+            <div><img src="imagenes/logoface.png" alt="" width="30px" height="30px"></div>
+            <div><img src="imagenes/logolinke.png" alt="" width="30px" height="30px"></div>
+                
+        </div>
+        <div class="buscar">
+            <div class="lupa">
+                <img src="imagenes/lupa.png" alt="" width="30px" height="30px" >
+                <input type="text" class="buscar_texto" placeholder="Escribe lo que buscas">  
+            </div>
+        </div>
+    </div>      
+</header>
+<aside>
+    <nav class="pestañas">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="equipo.html">Nuestro Equipo</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Sistema</a></li>
+            <li><a href="#">Turno</a></li>
+        </ul>
+    </nav>
+</aside>
     <div class="paginaPrincip">
-        <img id="servicDomi" src="imagenes/portada.png" width="980px" alt="">
+        <img id="servicDomi" src="imagenes/serviDomi.png" width="980px" alt="">
     </div>
-    <div class="tarjetas">
-        <div class="card" style="width: 18rem;height: 40rem;">
-            <div class="card-body">
-              <h5 class="card-title">Internación Domiciliaria</h5>
-              <img src="imagenes/pngwing.com (9).png" class="card-img-top" alt="...">
-              <p class="card-text" style="font-size: 12px; ;">Mediante esta modalidad, un equipo multiprofesional e interdisciplinario, brinda atención y asistencia al paciente y su familia en el domicilio. Nuestro objetivo es promover, prevenir, recuperar, rehabilitar y/o acompañar a cada uno de acuerdo a su diagnóstico y evolución en los aspectos físico, psíquico, social y espiritual, manteniendo la calidad, el respeto y la dignidad humana. 
+    <div class="tarjetas row justify-content-evenly">
+      <div class="card col-md-3 mt-3 p-1 shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title text-center p-3 mb-5 bg-secondary text-white">Internación Domiciliaria</h5>
+            <p class="card-text" style="font-size: 12px; ;">Mediante esta modalidad, un equipo multiprofesional e interdisciplinario, brinda atención y asistencia al paciente y su familia en el domicilio. Nuestro objetivo es promover, prevenir, recuperar, rehabilitar y/o acompañar a cada uno de acuerdo a su diagnóstico y evolución en los aspectos físico, psíquico, social y espiritual, manteniendo la calidad, el respeto y la dignidad humana. 
 
-                Ofrecemos tratamientos terapéuticos de:
-                -Salud mental
-                -Abordaje familiar
-                -Cuidados paliativos
-                -Kinesiología
-                -Terapia ocupacional
-                -Fonoaudiología
-                -Psicopedagogía
-                -Terapia Visual
-                -Musicoterapia
-                -Pediatría 
-                </p>
-            </div>
+              Ofrecemos tratamientos terapéuticos de:
+              -Salud mental
+              -Abordaje familiar
+              -Cuidados paliativos
+              -Kinesiología
+              -Terapia ocupacional
+              -Fonoaudiología
+              -Psicopedagogía
+              -Terapia Visual
+              -Musicoterapia
+              -Pediatría 
+              </p>
           </div>
-          <div class="card" style="width: 18rem;height: 40rem;">
-            <div class="card-body">
-              <h5 class="card-title">Mi Hospital en casa</h5>
-              <img src="imagenes/pngwing.com (2).png" class="card-img-top" alt="..." width="120px"
-              height="290px">
-              <p class="card-text" style="font-size: 12px; ;">Esta propuesta innovadora ofrece y garantiza prácticas asistenciales o estudios complementarios en el ámbito domiciliario, garantizando el acceso a estudios, realización de tratamientos o prácticas médicas, junto al acompañamiento y supervisión de profesionales de la salud. 
+        </div>
+        <div class="card col-md-3 mt-3 p-1 shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title text-center p-3 mb-5 bg-secondary text-white">Mi Hospital en casa</h5>
+            <p class="card-text" style="font-size: 12px; ;">Esta propuesta innovadora ofrece y garantiza prácticas asistenciales o estudios complementarios en el ámbito domiciliario, garantizando el acceso a estudios, realización de tratamientos o prácticas médicas, junto al acompañamiento y supervisión de profesionales de la salud. 
 
-                Algunas de las prácticas que realizamos son:
-                -Servicios de laboratorio, bioquímica y bacteriología.
-                -Estudios por imágenes (RX o ecografías).
-                -Polisomnografía.
-                -Tratamientos endovenosos.
-                -Prácticas de enfermería.
-                -Dispensación de medicamentos o insumos médicos.
-                -Soporte respiratorio y telesoporte respiratorio.
-                -Estudios varios como espirometría, EEG, ECG, entre otros. 
-                
-                </p>
-            </div>
+              Algunas de las prácticas que realizamos son:
+              -Servicios de laboratorio, bioquímica y bacteriología.
+              -Estudios por imágenes (RX o ecografías).
+              -Polisomnografía.
+              -Tratamientos endovenosos.
+              -Prácticas de enfermería.
+              -Dispensación de medicamentos o insumos médicos.
+              -Soporte respiratorio y telesoporte respiratorio.
+              -Estudios varios como espirometría, EEG, ECG, entre otros. 
+              
+              </p>
           </div>
-          <div class="card" style="width: 18rem;height: 40rem;">
-            <div class="card-body">
-              <h5 class="card-title" style="margin-left: 80px;">Te cuido</h5>
-              <img src="imagenes/pngwing.com (9).png" class="card-img-top" alt="...">
-              <p class="card-text" style="font-size: 12px; ;">Nace como respuesta a la necesidad de garantizar la continuidad de los tratamientos
-                ambulatorios dentro del domicilio. Asegurar los cuidados, estimulación y acompañamiento en casa, con abordaje integral e intensivo, permite articular todo el trabajo de los profesionales médicos con las necesidades y realidades del niño y referentes de cuidado.
-                
-                Contamos con un equipo que selecciona a cada acompañante en función de la singularidad y necesidades de cada paciente y su entorno. Cada uno de ellos será supervisado por una coordinadora técnica, y recibirá acompañamiento y orientación durante su tarea. Además, tendrá la obligatoriedad de capacitarse mensualmente con profesionales especializados.
-                </p>
-            </div>
+        </div>
+        <div class="card col-md-3 mt-3 p-1 shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title text-center p-3 mb-5 bg-secondary text-white">Te cuido</h5>
+            <p class="card-text" style="font-size: 12px; ;">Nace como respuesta a la necesidad de garantizar la continuidad de los tratamientos
+              ambulatorios dentro del domicilio. Asegurar los cuidados, estimulación y acompañamiento en casa, con abordaje integral e intensivo, permite articular todo el trabajo de los profesionales médicos con las necesidades y realidades del niño y referentes de cuidado.
+              
+              Contamos con un equipo que selecciona a cada acompañante en función de la singularidad y necesidades de cada paciente y su entorno. Cada uno de ellos será supervisado por una coordinadora técnica, y recibirá acompañamiento y orientación durante su tarea. Además, tendrá la obligatoriedad de capacitarse mensualmente con profesionales especializados.
+              </p>
           </div>
+        </div>
+      </div>
     </div>
     <button type="button" class="btn btn-outline-danger btn-lg">
         <a href="index.html"> VOLVER</a>
     </button>
-
+    <footer>
+      <footer>
+          <div class="container-footer">
+              <div class="princip">
+                  <img src="imagenes/logopediahome.png" alt="#">
+              </div>
+              <div class="verticalLine"></div> 
+              <div class="logosfoot" id="logosfoot">            
+                  <img src="imagenes/logowhat.png" alt="#">
+                  <img src="imagenes/logoinsta.png" alt="#">
+                  <img src="imagenes/logoface.png" alt="#">
+                  <img src="imagenes/logolinke.png" alt="#">
+              </div>
+          </div>
+          <div>
+              <nav class="pestafoot">
+                  <ol id="pestanas">
+                      <label class="abajo"><a class="masbajo" href="#">Inicio</a></label>
+                      <label class="abajo"><a class="masbajo" href="#">Nosotros</a></label>
+                      <label class="abajo"><a class="masbajo" href="#">Equipo Médico</a></label>
+                      <label class="abajo"><a class="masbajo" href="#">Noticias</a></label>
+                      <label class="abajo"><a class="masbajo" href="#">Sistema</a></label>
+                      <label class="abajo"><a class="masbajo" href="#">Turno</a></label>
+                  </ol>
+              </nav>
+          </div>
+          <div class="barra-horiz">
+          _______________________________________________________________________________________
+          </div>
+          <div class="subtitulo" style="padding-top:20px ;margin-left:-40px;">
+              <h4>Servicios</h4>
+  
+          </div>
+          <div>
+              <nav class="pestaServ" style="padding-bottom:30px ;margin-left:30px;margin-bottom:-20px;">
+                  <ol id="listaServ">
+                      <label class="tipos"><a href="#">Servicios domiciliarios</a></label>
+                      <label class="tipos"><a href="#">Pediatría integral</a></label>
+                      <label class="tipos"><a href="#">Intervención temprana y rehabilitación</a></label>
+                      <label class="tipos"><a href="#">Telemedicina</a></label>
+                      <label class="tipos"><a href="#">Neumohome</a></label>
+                      
+                  </ol>
+              </nav>
+          </div>
+          <div class="barra-horiz">
+              ________________________________________________________________________________________
+          </div>
+          <div class="formulario">
+              <div class="formu" style="padding-top:20px;margin-right:-200px ;">
+                  <form action="">
+                      <div class="mb-3" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 18px;text-decoration-line:underline;color:black;margin-top: -20px;margin-bottom: -15px;"><h4>ESCRIBENOS</h4></div>
+                      <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label"></label>
+                          <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                          <label for="exampleFormControlInput2" class="form-label"></label>
+                          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label"></label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" style="width: 430px;"></textarea>
+                        </div>
+                        <div class="mb-3">
+                          <button type="submit" class="btn btn-danger">Enviar</button> 
+                                          <button type="reset" class="btn btn-light" value="Reset">Cancelar</button>
+                        </div>
+                  </form>
+              </div>
+              <div class="parrafo" style="padding-top: 60px;font-size: 14px;">
+                  <p>Somos un grupo de profesionales de la salud que consideran
+                  que el trabajo en equipo, el abordaje integral y
+                  los aportes de cada disciplina posibilitan un
+                  acompañamiento enriquecedor y efectivo centrado
+                  en la persona. A través de cada especialidad ofrecemos
+                  soluciones a cada niño, niña o adolescente que le permiten
+                  tener una mejor calidad de vida individual e interpersonal.
+                  Ofrecemos atención, asesoramiento especializado
+                  y soporte a pacientes, familias, otros médicos o instituciones.
+                  Tenemos una nueva mirada integral y compleja. </p>
+  
+              </div>
+          </div>
+  
+      </footer>
+  </footer>
 
 
 
