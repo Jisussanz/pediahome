@@ -9,19 +9,18 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="main.js"></script>
-    <title>Index</title>
+    <title>Sistema</title>
     <style type="text/css">
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-        
+        }       
         .nave ul{
             list-style: none;
         }
         .menu > li{
-            position: relative;           
+            position: relative;            
         }
         .menu > li > a{
             display: block;
@@ -34,7 +33,6 @@
         .menu li a:hover {
             color: #CE7D35;
             transition: all .3s;
-
         }
 
         /*submenus*/
@@ -48,7 +46,7 @@
             visibility:hidden;
             opacity: 0;
             transition: opacity 1.5s;
-            right: -30px;           
+            right: -30px;          
         }
         .sub-menu li a:hover{
             background-color:lightgreen;
@@ -56,14 +54,13 @@
         .sub-menu li a{
             display: block;
             color: #fff;
-        
-
         }
         .menu li:hover .sub-menu {
             visibility: visible;
             opacity: 1;
         }
     </style>
+    <title>Sistema</title>
 </head>
 <body>
     <header>
@@ -103,89 +100,54 @@
         </ul>
     </nav>
     <aside>
-        <div class="paginaPrincip"><img src="imagenes/paginaprincipaldef.jpg" alt="" width="120%"></div>
+        <div class="paginaPrincip"><img src="imagenes/poratadasiste.png" alt="" width="120%"></div>
     </aside>
-    <aside>
+    <section class="ftco-section contact-section ftco-degree-bg">
         <div class="container">
-            <video id="video" controls autoplay muted loop src="imagenes/presenta.mp4" ></video>
-        </div>
-    </aside>
-    <div class="titu1"><h2>Nuestros servicios:</h2> </div>
-    <aside>
-        <div class="botones">
-            <a href="serviciosdomiciliarios.html"><img src="imagenes/boton1.png" alt=""></a>
-            <a href="pediatria.html"><img src="imagenes/boton2.png" alt=""></a>
-            <a href="atentemprana.html"><img src="imagenes/BOTON3.png" alt=""></a>
-            <a href="telemedicina.html"><img src="imagenes/boton4.png" alt=""></a>
-            <a href="https://neumohome.com/index.html"><img src="imagenes/boton5.png" alt=""></a>
-        </div>
-    </aside>
-    <div class="titu1"><h2>Ultimas Noticias:</h2> </div>
-    <div class="noticias">
-        <div class="container">
-            <div class="row">
-                <div class="col parrafo">
-                    <img class="img-fluid" src="./imagenes/noticia-1.png" alt="">
-                       <h3>Te invitamos a descubrir “TE CUIDO”</h3>
-                         <p class="noti-box">
-                            La figura del acompañante en domicilio se encuentra legislada en el artículo 39 inciso d) de la Ley 24.901, que prevé la obligación de los entes prestadores de cobertura social para personas con discapacidad de brindar el servicio de asistencia domiciliaria. 
-                            TE CUIDO es una propuesta que nace como respuesta a la necesidad de garantizar la continuidad y lineamientos de tratamiento y abordaje de niños/as y/o adolescentes con diagnóstico progresivo, complejo y de alta dependencia, desde el espacio del consultorio al domicilio, de forma dinámica y activa.
-                            Garantizar cuidados, estimulación y acompañamiento en el domicilio, con abordaje integral e intensivo, posibilita la articulación de los conocimientos e indicaciones de los profesionales médicos o terapeutas con las necesidades y realidades del niño y familiares.<br> <a href="serviciosdomiciliarios.html">ver más</a></p>                            
-                </div>
-                <div class="col parrafo">
-                    <img class="img-fluid" src="./imagenes/noticia2.png" alt="">
-                       <h3>Conocé nuestro trabajo en el Hospital de Día</h3>
-                         <p class="noti-box">
-                            Hospital de Dia es un proyecto y propuesta de trabajo que se fundamenta en la necesidad de garantizar y proveer un abordaje interdisciplinario e integral a pacientes pediátricos con condiciones clínicas crónicas y complejas.
-                            Es un área destinada a brindar atención de forma programada, por un periodo no mayor a 8 hs para diagnóstico, evaluaciones clínicas y/o exploraciones múltiples, así como para tratamientos que no pueden hacerse en la consulta externa, y que requieren atención continuada médica o de enfermería pero que no justifican la internación en un hospital.
-                            Funciona como una unidad polivalente dedicada a realizar procedimientos generales, como infusión intravenosa de medicamentos, infusión de quimioterapia, valoración multidisciplinaria de pacientes complejos, entre otros. Cuenta con el uso de tecnologías <br> <a href="pediatria.html">ver más</a></p>
-                </div>
-                <div class="col parrafo">
-                    <img class="img-fluid" src="./imagenes/webnueva-pedia-mejorada.jpg" alt="">
-                       <h3>¿Qué es un abordaje interdisciplinario? </h3>
-                         <p class="noti-box">
-                            Es una modalidad en la que varios profesionales de distintas áreas se ocupan de estudiar un caso para abarcar todos los aspectos de una situación. Cada uno aporta su punto de vista según sus competencias específicas. 
-                            Esta modalidad es muy importante porque posibilita el trabajo desde diferentes especialidades para el acompañamiento y tratamiento de cada niño, niña o adolescente de una forma integral. 
-                            En Pedia Home el abordaje interdisciplinario incluye:
-                            Clínica de trastorno del desarrollo: psicología, neurología, pediatría, fonoaudiología, terapia ocupacional.
-                            Soporte ventilatorio no invasivo: pediatría, neumonología, kinesiología y psicología.
-                            Consultorio de neuromusculares: pediatría, neurología, kinesiología, fonoaudiología y neumonología.
-                            Clínica de la alimentación: pediatría, gastroenterología <br> <a href="#">ver más</a></p>
-                </div>
+          <div class="row d-flex mb-5 contact-info">
+            <div class="col-md-12 mb-4">
+
+
+              <h2 class="h4">Inicio al sistema</h2>
+  			  		<?php	if(isset($_GET["error"])) {
+  				echo "<p class='error'>" . $_GET["error"] . "</p>";
+  			}
+  ?>
+
+
             </div>
-        </div>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner" style="width:400px; height:450px;margin-left: 300px;background-color: bisque;">
-          <div class="carousel-item active">
-            <img src="imagenes/f1.png" class="d-block w-100" alt="..." >
+            <div class="w-100"></div>
+            <div class="col-md-3">
+            <form action="https://system.neumohome.com/doc/login.php" method="post"  name="apass1">
+  				<input type="text" class="form-control" name="usuario" placeholder="Usuario" required>
+  				<input type="hidden"  name="sitio" value="nhmedica.com">
+  				<input type="password" class="form-control" name="Password1" placeholder="Password" required>
+
+
+            </div>
+            <div class="col-md-3">
+  			  			<button type="submit" name="enviar" class="btn btn-default">Portal profesional</button>
+  			  		</form>
+
+            </div>
+            <div class="col-md-3">
+  		<form action="https://system.neumohome.com/pacientes/login.php" method="post"  name="apass2">
+  				<input type="text" class="form-control" name="usuario2" placeholder="DNI" required>
+  				<input type="hidden"  name="sitio" value="nhmedica.com">
+  				<input type="password" class="form-control" name="password2" placeholder="Password" required>
+  			</div>
+            <div class="col-md-3">
+  				<button type="submit" name="enviar2" class="btn btn-default">Portal paciente</button>
+  		</form></div>
           </div>
-          <div class="carousel-item ">
-            <img src="imagenes/F2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/F3.png" class="d-block w-100" alt="...">
+          <div class="row">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually ">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually">Next</span>
-        </button>
-      </div>
-    <section class="mapa" style="padding-bottom:1rem ;padding-top: 30px ;">
-            <iframe class="mapa-m"  src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3350.128694469739!2d-68.846585!3d-32.8947655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090fc3b03a2f%3A0x46060152c3008698!2sCj%C3%B3n.%20Lemos%20598%2C%20M5500HFA%20Mendoza!5e0!3m2!1ses-419!2sar!4v1653008892308!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
     </section>
-        
-    </div>
+    <section class="mapa" style="padding-bottom:2rem;">
+        <iframe class="mapa-m"  src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3350.128694469739!2d-68.846585!3d-32.8947655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090fc3b03a2f%3A0x46060152c3008698!2sCj%C3%B3n.%20Lemos%20598%2C%20M5500HFA%20Mendoza!5e0!3m2!1ses-419!2sar!4v1653008892308!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
     <footer>
         <footer>
             <div class="container-footer">
@@ -271,17 +233,24 @@
     
         </footer>
     </footer>
+    <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    
-
-
-
-
-
-    
+<script src="js/core.min.js"></script>
+<script src="js/md5.js"></script>
     
 </body>
 </html>
