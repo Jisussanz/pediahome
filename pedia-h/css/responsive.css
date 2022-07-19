@@ -1,0 +1,65 @@
+@media only screen and (max-width:480px) {
+    footer {
+        background-color:brown;
+
+    }
+    footer .barra-horiz {
+        display: none;
+    }
+    footer #listaServ {
+        display: none;
+    }
+    footer .formulario {
+        width: 100%;
+    }
+    footer .parrafo {
+        display: none;
+    }
+    footer .verticalLine{
+        display: none;
+    }
+    footer .princip{
+        display: none;
+    }
+    footer .subtitulo{
+        display: none;
+    }
+    footer .pestafoot{
+        padding-right: 30vh;
+    }
+    footer .h4 {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width:768px) and (min-width:481px) {
+    footer .parrafo{
+        display: contents; 
+        
+    }
+    footer .formulario{
+        display: contents;
+    }
+    footer .subtitulo > h4 {
+        display: none;
+        
+    }
+    footer .barra-horiz {
+        display: none;
+    }
+    footer .pestafoot{
+        padding-right: 50vh;
+    }
+    footer ol > #listaServ {
+        margin: 0 100%;
+        padding: 0  100%;
+    }
+
+
+
+
+
+
+
+}
